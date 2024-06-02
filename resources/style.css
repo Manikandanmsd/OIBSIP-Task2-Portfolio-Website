@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Global Variables */
+:root {
+    --dark-primary:#1b1f24;
+    --blue-primary:#12bdff;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--dark-primary);
+    padding : 20px;
+    color:#fff;
+
+    display:flex;
+    /* justify-content depends on flex property 
+    space-around == equal splitting of spaces
+    space-between == equal splitting of spaces between the center alone
+    space-evenly == equal splitting of spaces between the center and the edges */
+    justify-content: space-evenly;
+    align-items:center;
+}
+header .logo{
+    color:var(--blue-primary);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-right: 20px;
+}
+ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:var(--blue-primary);
+}
+/* header->buttons */
+
+header button{
+    padding:10px 20px;
+    font-weight:bold;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--blue-primary);
+    color:var(--blue-primary);
+    border-radius: 5px;
+}
+header button:hover{
+    cursor:pointer;
+    background-color: var(--blue-primary);
+    color: #fff;
+}
