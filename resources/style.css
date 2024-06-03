@@ -3,6 +3,7 @@
 :root {
     --dark-primary:#1b1f24;
     --blue-primary:#12bdff;
+    --prime-hover:#0c8ec2;
 }
 *{
     margin:0;
@@ -28,31 +29,93 @@ header .logo{
     font-weight: bold;
     letter-spacing: 2px;
 }
-ul{
+header ul{
     display: flex;
     list-style: none;
 }
-ul li{
+header ul li{
     margin-right: 20px;
 }
-ul li a{
+header ul li a{
     color:#fff;
     text-decoration: none;
+    font-weight: 600;
 }
-ul li a:hover{
+header ul li a:hover{
     color:var(--blue-primary);
 }
-/* header->buttons */
+/* Section Image Homepage */
+section.img-sector{
+    background-color: var(--dark-primary);
+    color: #fff;
+    display:flex;
+    align-items: center;
+    padding:20px 120px 0px 240px;
+}
+.img-sector-title{
+    font-size: 48px;
+    font-weight:900;
+}
+.img-sector-title > span{
+    color:var(--blue-primary);
+}
+.img-sector-descr{
+    color: #bdbfbf;
+}
+.social-icons{
+    margin: 20px 0;
+}
+.social-icons li{
+    margin-right: 20px;
+}
+ul.social-icons{
+    list-style: none;
+    display: flex;
+}
+.social-icons li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons li a > i.fa-facebook:hover{
+    color:#1877f2;
+}
+.social-icons li a > i.fa-linkedin:hover{
+    color:#0072b1;
+}
+.social-icons li a > i.fa-instagram:hover{
+    color:#c13584;
+}
+.social-icons li a > i.fa-github:hover{
+    color: #808080;
+}
+.act-buttons button{
+    margin-right: 20px;
+}
+/*buttons styling with CSS*/
 
-header button{
+.btn{
     padding:10px 20px;
-    font-weight:bold;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.btn.btn-prime{
+    background-color: var(--blue-primary);
+    font-weight: 600;
+    color:#fff;
+    border-radius: 4px;    
+}
+.btn.btn-prime:hover{
+    background-color:var(--prime-hover);
+}
+.btn-dark-outlined{
     background-color: var(--dark-primary);
     border: 1px solid var(--blue-primary);
     color:var(--blue-primary);
     border-radius: 5px;
+    font-weight: 600;
 }
-header button:hover{
+.btn-dark-outlined:hover{
     cursor:pointer;
     background-color: var(--blue-primary);
     color: #fff;
