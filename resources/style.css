@@ -120,6 +120,7 @@ ul.social-icons{
     background-color: var(--blue-primary);
     color: #fff;
 }
+
 /* About Me Section  */
 .about-section{
     background-color: #22282f;
@@ -157,6 +158,61 @@ ul.social-icons{
 .about-section-desc h4 > span{
     color: var(--blue-primary);
 }
-.about-section-desc button{
-    align-items: center;
+
+/* Features Section */
+
+.features-section{
+    background-color: var(--dark-primary);
+    color:#fff;
+    padding:60px;
+    text-align: center;
 }
+.fs-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: var(--blue-primary);
+}
+.fs-title:hover{
+    color:#fff;
+}
+.ws-blocks{
+    display:flex;
+    justify-content: center;
+}
+.ws-box-1{
+    background-color: #22282f;
+    padding: 30px;
+    max-width:300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.ws-box-1 p{
+    color: #bdbfbf;
+    padding-top:10px;
+}
+.ws-box-1 a{
+    text-decoration: none;
+    color: #feda75;
+    display: block;
+    margin-top: 10px;
+}
+.ws-box-1 h4{
+    text-align: center;
+    font-weight: 900;
+    color:#fff;
+    margin-top:10px;
+}
+.ws-section-icons{
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom:20px;
+    font-size: 40px;
+}
+.ws-box-1:hover{
+    background-color: #1b1f24;
+    border:1px solid #fff;
+}
+
