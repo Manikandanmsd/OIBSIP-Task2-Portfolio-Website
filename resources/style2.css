@@ -115,3 +115,30 @@ body{
     background-color: #1b1f24;
     border:1px solid #fff;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .project-list{
+        padding:30px 10px;
+    }
+    .project-blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box1{
+        margin-bottom: 20px;
+        width:80%;
+        margin-right: 0;
+    }
+    .project-blocks2{
+        flex-direction: column;
+        align-items: center;
+        padding:0
+    }
+    .project-box2{
+        margin-bottom: 20px;
+        width:80%;
+        margin-right: 0;
+    }
+}
