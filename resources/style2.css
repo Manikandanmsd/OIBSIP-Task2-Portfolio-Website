@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Global Variables */
+:root {
+    --dark-primary:#1b1f24;
+    --blue-primary:#12bdff;
+    --prime-hover:#0c8ec2;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--dark-primary);
+}
+.project-list{
+    background-color: var(--dark-primary);
+    color:#fff;
+    padding:60px;
+    text-align: center;
+}
+.prj-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: var(--blue-primary);
+}
+.prj-title:hover{
+    color:#fff;
+}
+.project-blocks{
+    display:flex;
+    justify-content: center;
+}
+.project-box1{
+    background-color: #22282f;
+    padding: 10px;
+    max-width:500px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.project-box1 p{
+    color: #bdbfbf;
+    padding-top:10px;
+}
+.project-box1 a{
+    text-decoration: none;
+    color: #feda75;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.project-box1 h3{
+    text-align: center;
+    font-weight: 900;
+    color:#fff;
+    margin-top:10px;
+}
+.project-box1 ul{
+    list-style: none;
+    margin:20px 0;
+    color:#fff;
+}
+.project-box1 li{
+    margin: 20px 0;
+    color: #bdbfbf;
+}
+.project-box1:hover{
+    background-color: #1b1f24;
+    border:1px solid #fff;
+}
+.project-blocks2{
+    display:flex;
+    justify-content: center;
+    padding :80px;
+}
+.project-box2{
+    background-color: #22282f;
+    padding: 10px;
+    max-width:500px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.project-box2 p{
+    color: #bdbfbf;
+    padding-top:10px;
+}
+.project-box2 a{
+    text-decoration: none;
+    color: #feda75;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.project-box2 h3{
+    text-align: center;
+    font-weight: 900;
+    color:#fff;
+    margin-top:10px;
+}
+.project-box2 ul{
+    list-style: none;
+    margin:20px 0;
+    color:#fff;
+}
+.project-box2 li{
+    margin: 20px 0;
+    color: #bdbfbf;
+}
+.project-box2:hover{
+    background-color: #1b1f24;
+    border:1px solid #fff;
+}
