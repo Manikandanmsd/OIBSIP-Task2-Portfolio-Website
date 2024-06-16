@@ -112,7 +112,6 @@ ul.social-icons{
     font-weight: 900;
 }
 .btn-dark-outlined:hover{
-    cursor:pointer;
     background-color: var(--blue-primary);
     color: #fff;
 }
